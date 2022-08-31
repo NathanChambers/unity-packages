@@ -1,0 +1,10 @@
+{
+    "name": "com.nathanchambers.unity-toolkit",
+    "description": "https://github.com/NathanChambers/unity-packages",
+    "version": "1.0.0",
+    "displayName": "Unity Toolkit",
+    "unity": "2020.1",
+    "dependencies": {
+        "com.nathanchambers.unity-errors": "1.0.0"
+    }
+}
