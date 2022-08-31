@@ -3,7 +3,6 @@ make:
 deploy-all: \
 deploy-unity-errors\
 deploy-unity-json\
-deploy-unity-grpc\
 deploy-unity-toolkit\
 deploy-unity-service-core\
 deploy-unity-service-provider-unity
@@ -15,10 +14,6 @@ deploy-unity-errors:
 .PHONY: deploy-unity-json
 deploy-unity-json:
 	git subtree push --prefix Assets/com.nathanchambers.unity-json origin unity-json
-
-.PHONY: deploy-unity-grpc
-deploy-unity-grpc:
-	git subtree push --prefix Assets/com.nathanchambers.unity-grpc origin unity-grpc
 
 .PHONY: deploy-unity-toolkit
 deploy-unity-toolkit:
